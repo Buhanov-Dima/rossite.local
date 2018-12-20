@@ -1,0 +1,80 @@
+body {
+	color: #c4cdd6;
+}
+a:link {text-decoration: none;}
+.pdg-0 {padding: 0;}
+.main_btn {
+	height: 100vh;
+	display: flex;
+}
+.btn {
+	margin: auto;
+	font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  border-radius: 3px;
+  background-color: rgb(255, 137, 30);
+  width: 249px;
+  height: 45px
+}
+
+.slider .items {
+	position: relative;
+}
+.slide_img {
+	position: relative;
+	z-index: 100;
+}
+.slide_txt {
+	position: absolute;
+	z-index: 99999;
+	top: 235px;
+	left: 390px;
+	right: 0;
+	margin: auto;
+	max-width: 563px;
+}
+
+.slide_txt h1 {
+  font-size: 42px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.slide_txt span {
+	font-size: 24px;
+}
+
+.link_promo a:first-child{
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: rgb(255, 137, 30);
+  border: 1px solid rgb(255, 137, 30);
+  width: 155px;
+  line-height: 43px;
+  margin-right: 20px;
+}
+
+.link_promo a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.2;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #000000;
+  width: 155px;
+  line-height: 43px;
+}
