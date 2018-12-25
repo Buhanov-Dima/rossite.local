@@ -1,5 +1,6 @@
 body {
 	color: #c4cdd6;
+  overflow-y: scroll;
 }
 a:link {text-decoration: none;}
 button {outline: none;}
@@ -187,6 +188,9 @@ button {outline: none;}
   z-index: 10;
 }
 
+/*
 .slide.active {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+*/
